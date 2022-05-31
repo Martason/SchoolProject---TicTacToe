@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Tic Tac Toe</title>
+        <link
+          rel="stylesheet"
+          href="/node_modules/bootstrap/dist/css/bootstrap.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="script.js"></script>
+      </head>
+      <body>
+        <div class="main">
+          <h1 class="gameTitle">Tic Tac Toe</h1>
+          <div class="scoreBoard">
+            <div class="O">
+              <span class="text">O:</span>
+
+              <span class="points pointsPlayer"></span>
+            </div>
+            <div class="X">
+              <span class="text">X:</span>
+              <span class="points pointsComputer"></span>
+            </div>
+          </div>
+          <button class="btn btn-secondary" id="resetScore-btn">
+            Reset score
+          </button>
+          <div class="gameBoard">
+            <div id="0" class="square"></div>
+            <div id="1" class="square"></div>
+            <div id="2" class="square"></div>
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+          </div>
+          <h2 class="currentPlayer"></h2>
+          <button class="btn btn-dark" id="play-btn">New game</button>
+        </div>
+      </body>
+    </html>
+  </head>
+</html>
