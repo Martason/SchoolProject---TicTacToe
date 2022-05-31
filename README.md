@@ -1,2 +1,2 @@
-# Javascript Inlämningsuppgift
-Repo att forka för inlämning i JavaScript kursen
+# Javascript TicTackToe
+SchoolProject to build TicTacToe finnished in january 2022
